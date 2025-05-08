@@ -1,0 +1,280 @@
+@import url("https://fonts.googleapis.com/css2?family=Schibsted+Grotesk&family=Ubuntu&display=swap");
+
+
+/**GENERAL**/
+/** GENERAL ELEMENTS START **/
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: monospace;
+}
+
+h1{
+    font-size: 160px;
+}
+
+a{
+    font-family: monospace;
+    color: white;
+    font-size: 18px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    transition-timing-function:linear;
+    transition: .4s;
+}
+
+a.active,a:hover{
+    font-size: 20px;
+    background: black;
+}
+
+/** GENERAL ELEMENTS END **/
+
+a{ cursor: pointer; text-decoration: none;}
+
+h1, h2, h3, h4, h5, h6{ font-size: 28px; font-family: monospace;}
+
+/**  HERO CONTAINER START **/
+
+.heronav{
+  background-image: url("EZ_50ThUEAA1QqL.jpg");
+  height: 100rem;
+  vertical-align: middle;
+  display: table-cell;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.heronav{
+  background-image: url("EZ_50ThUEAA1QqL.jpg");
+  height: 100vh;
+  vertical-align: middle;
+  display: table-cell;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.herocontainer{
+  padding: 5%;
+  float: right;
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.herocontainer h1{
+  color: black;
+  font-size: 1.5rem;
+  margin: 12px;
+}
+
+.herocontainer p{
+  color: black;
+  font-size: 1rem;
+  margin: 12px;
+}
+
+.createbutton{
+  background-color: white;
+  color: black;
+  font-size: 1.2rem;
+}
+
+.createbutton.active,.createbutton:hover{
+  font-size: 22px;
+  color: white;
+}
+
+.herocontainer .createbuttonhero{
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  margin: 12px;
+  min-width: 10rem;
+  width: 65%;
+  text-align: center;
+}
+
+.herocontainer .createbuttonhero.active,.createbuttonhero:hover{
+  background-color: lightgray;
+  color: black;
+  font-size: 1.4rem;
+  width: 70%;
+}
+
+/**  HERO CONTAINER END **/
+
+
+.flex{ display: flex;}
+
+.textbox2 p, .textbox2 h1, .contact p{ margin: 12px;  }
+
+.textbox p, .textbox h1{ color: white; margin: 12px; font-family: "Schibsted Grotesk", sans-serif; }
+
+.hidden{ opacity: 0; cursor: default;}
+
+.directory{ text-decoration: none; color: #353535;}
+
+.textbox img, .textbox2 img{ width: 160px; height: 160px; }
+
+.textcontainer{
+  display: flex;
+  padding: 10%;
+  flex-direction: column;
+  min-width: 50%;
+  gap: 24px;
+}
+
+.myskills{
+  background-color: #F0F2F2;
+  height: 100vh;
+  vertical-align: middle;
+  justify-content: space-evenly;
+  width: 100%;
+  color: #353535;
+}
+
+.container{
+  justify-content: space-around;
+  padding: 5%;
+  padding-top: 12px;
+  text-align: center;
+}
+
+.textbox{
+  width: 30%;
+  background-color: #353535;
+  height: 26rem;
+  text-align: center;
+  padding: 12px;
+}
+
+.textbox2{
+  width: 30%;
+  background-color: #F0F2F2;
+  text-align: center;
+  padding: 12px;
+}
+
+.contact{
+  display: flex;
+  padding: 5%;
+  background-color: #353535;
+  height: 20rem;
+  color: white;
+}
+
+/** NAVIGATION BAR START **/
+
+.navhidden{
+  width: 100%;
+  height: 13%;
+  top: 0;
+  position: static;
+}   
+
+nav{
+  background: #131313;
+  top: 0;
+  height: 5.5rem;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  position: sticky;
+}
+
+label.logo{
+  color: white;
+  font-size: 20px;
+  line-height: 90px;
+  padding: 0 5rem;
+  font-weight: bold;
+}
+
+nav ul{
+  float: right;
+  margin-right: 2rem;
+}
+
+nav ul li{
+  display: inline-block;
+  line-height: 90px;
+  margin: 0 1rem;
+  text-transform: uppercase;
+}
+
+nav ul li a{
+  font-family: monospace;
+  color: white;
+  font-size: 18px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  transition-timing-function:linear;
+  transition: .4s;
+}
+
+/** DROPDOWN START **/
+
+nav li:hover ul{
+  position: absolute;
+  display: block;
+}
+
+nav ul ul{
+  position: fixed;
+  top: 70%;
+  width: 18%;
+  padding: 6px;
+  display: none;
+  border-radius: 3px;
+  background: #131313;
+}
+
+nav ul ul li{
+  display: block;
+  line-height: 60px;
+}
+
+nav ul ul li a{
+  font-family: monospace;
+  color: white;
+  font-size: 16px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: capitalize;
+}
+
+ul ul li:hover{
+  background: black;
+  transition: .4s;
+  transition-timing-function:ease-in-out;
+  border-radius: 3px;
+}
+
+/** DROPDOWN END **/
+
+/** NAVIGATION BAR END **/
+
+.progressbar {
+  background-color: lightgray;
+  border-radius: 8px;
+  padding: 3px;
+}
+
+.progressbar div {
+  background-color: #353535;
+  height: 20px;
+  border-radius: 5px;
+}
+
+.rounded-img{ border-radius: 8px;}
