@@ -2,16 +2,19 @@ import './App.css'
 
 function NavBar() { return (
     <>
- <nav>
-        <label class="logo">World Name</label>
-        <ul>
-            <li ><a href="#home">Home</a></li>
-            <li ><a href="#intro">Introduction</a></li>
-            <li><a href="#projects">Project</a></li>
-            <li><a href="#about">About</a></li>
-            <li ><a href="#contact">Contact</a></li>
+    <header class="bg-darkblue-200">
+    <p class="logo">John Dale</p>
+    <nav>
+        <ul class="nav_links">
+            <li> <a href="#home">Home</a></li>
+            <li> <a href="#projects">Projects</a></li>
+            <li> <a href="/About">About</a></li>
+            <li> <a href="/Art">Art</a></li>
+            <li> <a href="#footer">Contact</a></li>
         </ul>
     </nav>
+    <a class="cta">Resume</a>
+    </header>
     </>
     )}
 

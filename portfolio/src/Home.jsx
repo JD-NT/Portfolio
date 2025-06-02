@@ -1,13 +1,21 @@
 import './App.css'
+import "tailwindcss";
+import Kuno from './assets/KunoSit.png'
 
 function Home() { return (
     <>
-    <section id="home">
-    <div class="heronav">
-        <div class="herocontainer">
-            <h1>World Name</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, modi animi. Voluptates, necessitatibus culpa ut reiciendis earum eos veritatis, rem ex alias quaerat repudiandae dolorum enim vitae esse ipsum? Soluta.</p>
-            <a href="#" class="createbuttonhero">Create a character</a>
+    <section id="home" class="">
+    <div class="bg-lavender-50 py-5 h-screen flex content-center justify-center grid-bg">
+        <div class="max-width content-center justify-center">
+            <div class="corner-only-nowrap">
+            <h1 class="numsection text-image">Portfolio</h1>
+            <div class="flex flex-row content-center justify-center"> 
+            </div>
+            <div class="flex flex-row content-center justify-center">
+            <div class="hazard-background-thin-x"></div> <h5 class="my-1 text-center">Graphic Designer & Front-End Developer</h5> <div class="hazard-background-thin-x"></div> 
+            </div>
+            <div class="flex justify-between my-3"><div class="barblock1"></div> <div class="barblock1 reverse"></div> </div>
+            </div>
         </div>
     </div>
     </section>

@@ -1,16 +1,25 @@
 import './App.css'
+import "tailwindcss";
+import sticaclinic from './assets/sticaclinic.png'
+import syringe from './assets/syringe.png'
+import stica_clinic from './assets/stica_clinic.png'
 
 function About() { return (
     <>
-    <section id='about' style={{height:"100vh", backgroundColor:"#F0F2F2", padding:"5%"}}>
-      <div className='container'>
-        <h1>About Me</h1>
-        <p style={{margin:"32px", paddingInline:"10%"}}>I create web design ideas in my free time while also programming the design to implement and improve my skills.</p>
-        <p style={{margin:"32px", paddingInline:"10%"}}>I have illustrated some graphic and visuals as a hobby and for using in the websites that I create.</p>
-      </div>
+    <section id="about" class="">
+    <h1>About</h1>
+    <h2>About</h2>
+    <h3>About</h3>
+    <h4>About</h4>
+    <h5>About</h5>
+    <h6>About</h6>
+    <p>p</p>
+        <fieldset>
+            <legend>Do this tomorrow</legend>
+        </fieldset>
     </section>
     </>
-  )
+    )
 }
 
 export default About
