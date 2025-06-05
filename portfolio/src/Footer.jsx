@@ -1,6 +1,6 @@
 import './App.css'
 import "tailwindcss";
-import Kuno from './assets/KunoSit.webp'
+import Kuno from './assets/KunoSit.png'
 import { ArrowRight } from 'lucide-react';
 import { Facebook } from 'lucide-react';
 import { Linkedin } from 'lucide-react';
@@ -34,9 +34,11 @@ function Footer() { return (
             <img src={Kuno} class="footerimg"/>
             <div class="contact">
                 <h3>Contact</h3>
-                <a class="contactlink" href="https://www.facebook.com/share/Dtn2qMNfYxVExWJD/?mibextid=qi2Omg"><Facebook stroke="#181722"/><p class="py-1 mx-2">FaceBook</p>
+                <a class="contactlink"><Facebook stroke="#181722"/><p class="py-1 mx-2">FaceBook</p>
                 </a>
-                <a class="contactlink" href="https://www.linkedin.com/in/john-dale-arevalo-39a8a2369/"><Linkedin stroke="#181722"/><p class="py-1 mx-2">LinkedIn</p>
+                <a class="contactlink"><Linkedin stroke="#181722"/><p class="py-1 mx-2">LinkedIn</p>
+                </a>
+                <a class="contactlink"><Mail stroke="#181722"/><p class="py-1 mx-2">Gmail</p>
                 </a>
             </div>
         </div>

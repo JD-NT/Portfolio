@@ -3,10 +3,11 @@ import './App.css'
 function NavBar() { return (
     <>
     <header class="bg-darkblue-200">
-    <a href="/" class="logo">John Dale ₍ᐢ. .ᐢ₎</a>
+    <p class="logo">John Dale</p>
     <nav>
         <ul class="nav_links">
-            <li> <a href="/">Home</a></li>
+            <li> <a href="#home">Home</a></li>
+            <li> <a href="#projects">Projects</a></li>
             <li> <a href="/About">About</a></li>
             <li> <a href="/Art">Art</a></li>
             <li> <a href="#footer">Contact</a></li>
