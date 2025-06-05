@@ -1,14 +1,25 @@
 import './App.css'
 import "tailwindcss";
-import Kuno from './assets/KunoSit.png'
+import { useEffect } from 'react';
 
-function Home() { return (
+function Home() {
+    useEffect(() => {
+        const script = document.createElement('script');
+        script.src = './src/TextShuffle.js';
+        script.async = true;
+        document.body.appendChild(script);
+        
+        return () => {
+            document.body.removeChild(script);
+        };
+        }, []); 
+    return (
     <>
     <section id="home" class="">
-    <div class="bg-lavender-50 py-5 h-screen flex content-center justify-center grid-bg">
+    <div class="bg-lavender-50 py-5 h-screen flex content-center justify-center halftone-bg">
         <div class="max-width content-center justify-center">
             <div class="corner-only-nowrap">
-            <h1 class="numsection text-image">Portfolio</h1>
+            <h1 data-value="PORTFOLIO" class="numsection text-image">Port<br class="sm:hidden"/>folio</h1>
             <div class="flex flex-row content-center justify-center"> 
             </div>
             <div class="flex flex-row content-center justify-center">
