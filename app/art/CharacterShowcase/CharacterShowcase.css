@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+
+.characters {
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    justify-content: space-around;
+    margin-block: 4em;
+    padding: 0;
+    gap: 2em;
+}
+
+.characters a{
+    letter-spacing: 0;
+    position: relative;
+    height: fit-content;
+    gap: 0;
+    justify-content: center;
+}
+
+.characters a img{
+    width: 18em;
+}
+
+@media screen and (max-width: 1350px) {    
+.characters {
+    grid-template-columns: repeat(2, 1fr);
+    margin-block: 2em;
+}
+
+}

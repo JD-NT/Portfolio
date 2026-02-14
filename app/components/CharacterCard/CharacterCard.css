@@ -1,0 +1,50 @@
+.character-card{
+    display: grid;
+    grid-template-rows: subgrid;
+    grid-row: span 3;
+    border: var(--color-white-100) 1px solid;
+    padding: 2em 2em 4em 2em;
+    position: relative;
+    height: fit-content;
+    gap: 0;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.character-card .charlink{
+    cursor: pointer;
+}
+
+.character-card img{
+    aspect-ratio: 2 / 2;
+    width: 15em;
+    background-color: var(--color-darkblue-150);
+}
+
+.member-no{
+    font-size: clamp(3.75rem, 10rem, 12vw);
+    font-weight: 900;
+    text-transform: uppercase;
+    position: absolute;
+    top: -4px;
+    left: -1px;
+}
+
+.character-details{
+    background-color: var(--color-white-50);
+    color: var(--color-darkblue-50);
+    margin-block: 0.5em;
+    padding: 0.5em;
+    cursor: pointer;
+}
+
+.character-details small{
+    color: var(--color-darkblue-50);
+    font-size: clamp(0.35rem, 0.65rem, 0.90rem);
+}
+
+@media screen and (max-width: 900px) {  
+    .character-card{
+            padding: 2em;
+    }
+}
