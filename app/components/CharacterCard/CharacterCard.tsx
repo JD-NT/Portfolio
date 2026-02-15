@@ -1,4 +1,6 @@
 import './CharacterCard.css'
+import Image from 'next/image';
+
 export const ImageCard: React.FC<characterName> = ({ imageSrc, altText }) => {
   return <img src={imageSrc} alt={altText} style={{ maxWidth: '100%' }} />; // The src is the imageSrc which can be a directory for the file
 };

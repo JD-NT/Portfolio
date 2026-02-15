@@ -1,0 +1,11 @@
+.galleryimage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-block: 2em;
+}
+
+.galleryimage img{
+    object-fit: cover;
+    max-width: 100%;
+}

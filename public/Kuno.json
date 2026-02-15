@@ -1,0 +1,10 @@
+{
+    "name": "Kuno",
+    "description": "He is the founder of the Six Stars, Kuno is highly skilled mercenary who specializes in stealth expeditions / operations. He is quiet and prefers to be straight to the point but", 
+    "gender": "M",
+    "pronouns": "He / Him",
+    "profile": "./assets/KunoIcon.png",
+    "charactersheet": "./assets/BunnyIcon.svg",
+    "weapon1": "./assets/BunnyIcon.svg",
+    "weapon2": "./assets/BunnyIcon.svg"
+}

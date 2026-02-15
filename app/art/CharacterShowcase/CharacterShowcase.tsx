@@ -1,21 +1,21 @@
 import CharacterCard from '@/app/components/CharacterCard/CharacterCard'
 import './CharacterShowcase.css'
+import Link from 'next/link'
 
 function CharacterShowcase() { 
     return (
         <>
         <div className='layout-case'>
             <div className='characters'>
-                    <a>
-                        <CharacterCard  description='The 1st member of the Six Stars' member='01' name='Kuno' imageSrc='./assets/KunoIcon.png' altText={''}/>
-                    </a>
+                    <Link href='art/Kuno'>
+                        <CharacterCard  description='The 1st member of the Six Stars' member='01' name='Kuno' imageSrc='./assets/KunoIcon.webp' altText={''}/>
+                    </Link>
 
                     <a>
                         <CharacterCard  description='The 2nd member of the Six Stars' member='02' name='Narole' imageSrc='./assets/BunnyIcon.svg' altText={''}/>
                     </a>
-
                     <a>
-                        <CharacterCard  description='The 3rd member of the Six Stars' member='03' name='Akiara' imageSrc='./assets/AkiaraIcon.png' altText={''}/>
+                        <CharacterCard  description='The 3rd member of the Six Stars' member='03' name='Akiara' imageSrc='./assets/AkiaraIcon.webp' altText={''}/>
                     </a>
 
                     <a>
