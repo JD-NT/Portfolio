@@ -2,6 +2,7 @@
 
 @font-face {font-family: a4b03; src: url(../public/assets/Fonts/a4b03.TTF); }
 @font-face {font-family: Ubunto Mono; src: url(../public/assets/Fonts/UbuntuMono-Regular.ttf); }
+@font-face {font-family: Onder; src: url(../public/assets/Fonts/Onder-Regular.ttf); }
 
 :root {
   --color-lavender-50: #6C31D8;
@@ -19,9 +20,20 @@
   text-shadow: none;
 }
 
+::target-text{
+  color: var(--color-darkblue-50);
+  background-color: var(--color-white-50);
+  text-shadow: none;
+}
+
 *{
   box-sizing: border-box;
   text-decoration: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  scrollbar-gutter: thin;
 }
 
 html {
@@ -62,6 +74,15 @@ sup{font-weight: 100;}
     margin-right: auto;
     padding: 0 min(4em, 8%);
     margin-block: 2em;
+}
+
+.display-text{
+    font-family: Onder;
+    font-size: clamp(3.75rem, 6rem, 10vw);     
+    /* font-size: clamp(3.75rem, 10rem, 12vw); If I  want to use the pixel font*/
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 1.5em;
 }
 
 .halftone-bg{
@@ -106,6 +127,9 @@ sup{font-weight: 100;}
   animation-name: slide-animation;
   animation-duration: 1.25s;
   transition: ease-out;
+  -webkit-animation-name: slide-animation;
+  -webkit-animation-duration: 1.25s;
+  -webkit-transition: ease-in;
   animation-timeline: view();
   animation-range: entry 0;
 }

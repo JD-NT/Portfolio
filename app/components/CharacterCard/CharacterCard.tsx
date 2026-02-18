@@ -12,7 +12,7 @@ const CharacterCard = (props: characterName) => {
         <>
             <div>
                 <div className='character-card'>
-                    <div className='bounding-box-L my-[1em]'><img src={props.imageSrc}/></div>
+                    <div className='bounding-box-L my-[1em]'><Image src={props.imageSrc} width={1000} height={1000} quality={100} alt=''/></div>
                 </div>
                 <div className='character-details'><h4>{props.name}<small>[↗]</small></h4><small>{props.description}</small></div>
             </div>

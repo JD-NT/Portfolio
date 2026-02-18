@@ -29,3 +29,11 @@
 }
 
 }
+
+@media screen and (max-width: 400px) {    
+.characters {
+    grid-template-columns: repeat(1, 1fr);
+    margin-block: 2em;
+}
+
+}

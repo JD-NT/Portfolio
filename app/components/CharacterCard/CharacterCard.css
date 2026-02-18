@@ -18,7 +18,7 @@
 .character-card img{
     aspect-ratio: 2 / 2;
     width: 15em;
-    background-color: var(--color-darkblue-150);
+    background-color: var(--color-white-100);
 }
 
 .member-no{
@@ -38,7 +38,14 @@
     cursor: pointer;
 }
 
+.character-details h4{
+    font-family: Onder;
+    font-size: clamp(1.5rem, 2rem, 4vw);
+    line-height: 1em;
+}
+
 .character-details small{
+    font-family: Ubuntu Mono;
     color: var(--color-darkblue-50);
     font-size: clamp(0.35rem, 0.65rem, 0.90rem);
 }

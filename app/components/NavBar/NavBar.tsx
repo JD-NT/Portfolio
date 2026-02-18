@@ -11,8 +11,6 @@ export default function NavBar() {
 
     return (
     <>
-    <div className='w-full'>
-    </div>
     <header className={`${isOpen ? 'show' : ''}`} /* isOpen is the state that the header is cuurently in and if setIsOpen is true it adds the 'show' class, otherwise it's blank*/ > 
     <a href='/' className='logo'>Dale ₍ᐢ. .ᐢ₎</a>
     <nav>

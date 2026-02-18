@@ -9,3 +9,26 @@
     object-fit: cover;
     max-width: 100%;
 }
+
+/* .image-modal{
+    display: none;
+}
+
+.open-modal{
+    display: flex;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+    flex-direction: column;
+}
+
+.open-modal img{
+    max-width: 100%;
+}
+
+.open-modal ~.overlay{
+    display: block;
+} */
+
