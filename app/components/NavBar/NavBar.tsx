@@ -21,7 +21,7 @@ export default function NavBar() {
             <li> <Link href='#footer'>Contact<sup>[↗]</sup></Link></li>
         </ul>
     </nav>
-    <a className='cta'>Resume</a>
+    <a className='cta opacity-0'>Resume</a>
     </header>
     <div className='overlay' onClick={closeSidebar} aria-hidden='true'></div>
     <button className='hamburger-button' onClick={openSidebar} aria-label='Open Sidebar' aria-expanded={isOpen ? 'true' : 'false'} aria-controls='navbar'><big>[+]</big></button>

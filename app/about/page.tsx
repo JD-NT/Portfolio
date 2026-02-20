@@ -1,7 +1,11 @@
+import './About.css'
+
 function About() { 
     return (
         <>
-        <h1>About</h1>
+        <div className='layout-case'>
+            <h1>About</h1>
+        </div>
         </>
     )
 }

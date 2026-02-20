@@ -8,9 +8,10 @@
 .galleryimage img{
     object-fit: cover;
     max-width: 100%;
+    cursor: zoom-in;
 }
 
-/* .image-modal{
+.image-modal{
     display: none;
 }
 
@@ -20,8 +21,16 @@
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    z-index: 100;
+    z-index: 20;
     flex-direction: column;
+    transition: 150ms ease-in;
+    animation: 150ms fade-in ease-in;
+    cursor: zoom-out;
+}
+
+@keyframes fade-in {
+  0% {opacity: 0%;}
+  100% {opacity: 100%;}
 }
 
 .open-modal img{
@@ -30,5 +39,13 @@
 
 .open-modal ~.overlay{
     display: block;
-} */
+}
+
+@media screen and (max-width: 500px) {    
+.open-modal{
+    width: 100%;
+}
+}
+
+
 

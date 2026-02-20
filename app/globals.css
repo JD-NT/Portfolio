@@ -78,7 +78,7 @@ sup{font-weight: 100;}
 
 .display-text{
     font-family: Onder;
-    font-size: clamp(3.75rem, 6rem, 10vw);     
+    font-size: clamp(1vw, 5vw, 8vw);     
     /* font-size: clamp(3.75rem, 10rem, 12vw); If I  want to use the pixel font*/
     font-weight: 900;
     text-transform: uppercase;
@@ -93,7 +93,7 @@ sup{font-weight: 100;}
 
 .grid-bg{
   background-image: linear-gradient(#b9b7cd42 .01em, transparent .1em), linear-gradient(90deg, #b9b7cd42 .01em, transparent .1em);
-  background-size: 6.0em 6.0em;
+  background-size: 1em 1em;
 }
 
 .separator-x{ border-block: var(--color-white-100) 1px solid; }
@@ -258,4 +258,3 @@ sup{font-weight: 100;}
 @media screen and (max-width: 900px) {
     .layout-case{padding: 0 min(2em, 4%);}
 }
-

@@ -41,7 +41,7 @@ export default function Introduction() {
                     </div>
                     <div className='desc-box'>
                         <div className='flex'><small>Description:</small> <div className='hazard-background-thin flex-grow-1 self-center'></div></div>
-                        <p>My name is Dale (also know as BruhItsBon) (˶˃ ᵕ ˂˶) and I am an artist that focuses on character design and my main aesthetics are utilitarian, brutalism, and sci-fi.</p>
+                        <p>My name is Dale (also know as BruhItsBon) (≧∇≦)ﾉ and I am an artist that focuses on character design and my main aesthetics are utilitarian, brutalism, and sci-fi.</p>
                         <p></p>
                         <br />
                     </div>
@@ -50,14 +50,14 @@ export default function Introduction() {
             <div className="intro-content3 intro-desc bounding-box-L">
                     <div className='desc-box-mini'>
                         <small>Description:</small>
-                        <p>My name is Dale (also know as BruhItsBon) (˶˃ ᵕ ˂˶) and I am an artist that focuses on character design and my main aesthetics are utilitarian, brutalism, and sci-fi.</p>
+                        <p>My name is Dale (also know as BruhItsBon) (≧∇≦)ﾉ and I am an artist that focuses on character design and my main aesthetics are utilitarian, brutalism, and sci-fi.</p>
                         <p></p>
                         <br />
                         <div className='hazard-background'></div>
                     </div>
             </div>
             </div>
-        <div className='text-center'><a><small>Scroll down to see my works ↓</small></a></div>
+        <div className='text-center'><a><small>Scroll down to see my works（￣︶￣）↓</small></a></div>
         </div>
         
         <CharacterShowcase />
