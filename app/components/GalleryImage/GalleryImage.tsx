@@ -17,12 +17,12 @@ const GalleryImage = (props: Image) => {
             <div className='galleryimage' 
             onClick={openImageModal}
             >
-                <Image src={props.imageSrc} alt='' width={900} height={900} quality={100}/>
+                <Image src={props.imageSrc} width={1600} height={960} quality={100} alt=''/>
                 <small><i>{props.title}</i></small>
             </div>
 
             <div className={`${isOpen ? 'open-modal' : ''} image-modal`}>
-                <Image src={props.imageSrc} alt='' width={900} height={900} quality={100} onClick={closeImageModal}/>
+                <Image src={props.imageSrc} width={1600} height={960} quality={100} alt='' onClick={closeImageModal}/>
                 <small><i>{props.title}</i></small>
             </div>
             

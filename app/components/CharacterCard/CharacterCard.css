@@ -19,7 +19,6 @@
 .character-card img{
     aspect-ratio: 2 / 2;
     width: 15em;
-    background-color: var(--color-darkblue-100);
 }
 
 .member-no{
@@ -42,7 +41,7 @@
 
 .character-details h4{
     font-family: Onder;
-    font-size: clamp(1vw, 2rem, 4vw);
+    font-size: clamp(1rem, 2rem, 4rem);
     line-height: 1em;
 }
 
