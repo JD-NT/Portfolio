@@ -19,7 +19,7 @@ function CharacterShowcase() {
                         description='The 2nd member of the Six Stars' 
                         member='02' 
                         name='Narole' 
-                        imageSrc='/assets/BunnyIcon.svg' 
+                        imageSrc='/assets/NaroleIcon.png' 
                         altText={''}
                         linkto='/art/Narole'/>
 
@@ -35,7 +35,7 @@ function CharacterShowcase() {
                         description='The 4th member of the Six Stars' 
                         member='04' 
                         name='Vela' 
-                        imageSrc='/assets/BunnyIcon.svg'  
+                        imageSrc='/assets/VelaIcon.png'  
                         altText={''}
                         linkto='/art/Vela'/>
  
@@ -43,17 +43,17 @@ function CharacterShowcase() {
                         description='The 5th member of the Six Stars' 
                         member='05' 
                         name='Elizu' 
-                        imageSrc='/assets/BunnyIcon.svg' 
+                        imageSrc='/assets/ElizuIcon.png' 
                         altText={''}
                         linkto='/art/Elizu'/>
 
                         <CharacterCard  
                         description='The newest member of the Six Stars' 
                         member='06' 
-                        name='Hitomi' 
-                        imageSrc='/assets/BunnyIcon.svg' 
+                        name='Sybila' 
+                        imageSrc='/assets/SybilaIcon.png' 
                         altText={''}
-                        linkto='/art/Hitomi'/>
+                        linkto='/art/Sybila'/>
 
                 </div>
             </div>
