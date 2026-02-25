@@ -16,7 +16,7 @@ function PersonalWorks() {
                 </div>
                 <div>
                     <small className='image-section'>02</small>
-                    <GalleryImage imageSrc='/assets/otherWorks/Foodie OC.png' title='Foodie Cutie'></GalleryImage>
+                    <GalleryImage imageSrc='/assets/otherWorks/Foodie_OC.png' title='Foodie Cutie'></GalleryImage>
                     <GalleryImage imageSrc='/assets/otherWorks/ReDavinaK.png' title='Davina Kelly'></GalleryImage>
                 </div>
             </div>

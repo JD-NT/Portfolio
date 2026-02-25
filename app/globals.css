@@ -83,6 +83,7 @@ sup{font-weight: 100;}
     font-size: clamp(3.75rem, 10rem, 12vw);
     font-weight: 900;
     text-transform: uppercase;
+    line-height: 0.8em;
 }
 
 .social-link{

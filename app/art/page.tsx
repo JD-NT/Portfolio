@@ -22,7 +22,7 @@ export default function Introduction() {
                 <div className='additional-content'>
                     <small>Utilitarian design is an art concept that argues for the products to be designed based on the utility.</small>
                     <small>Brutalism is a style with an emphasis on producing highly imposing, bold, and expressive forms that go against the norm.</small>
-                    <small></small>
+                    <Image src='/assets/diagonalarrow.png' width={80} height={80} alt='' priority /> 
                     <small></small>
                 </div>
             </div>
@@ -35,8 +35,8 @@ export default function Introduction() {
                         priority
                     />
                     <div className='social-box'>
-                        <a className='social-link'><Image src='/assets/bluesky.webp' className='icon' width={16} height={16} alt='' priority/>BlueSky</a>
-                        <a className='social-link'><Image src='/assets/twitter.webp' className='icon' width={16} height={16} alt='' priority/>X</a>
+                        <a className='social-link'><Image src='/assets/icons/bluesky.webp' className='icon' width={16} height={16} alt='' priority/>BlueSky</a>
+                        <a className='social-link'><Image src='/assets/icons/twitter.webp' className='icon' width={16} height={16} alt='' priority/>X</a>
                         {/* <a className='social-link'><img src='./assets/VGen.webp' className='icon'/> VGen</a> */}
                     </div>
                     <div className='desc-box'>
