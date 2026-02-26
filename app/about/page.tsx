@@ -10,7 +10,7 @@ function About() {
             <div className='about-layout'>
                 <div className='about-me1'>
                     <div>
-                        <div className='bounding-box-L'> <Image className='' src='/assets/MePixel.png' width={400} height={650} alt=''/> </div>
+                        <div className='bounding-box-L flex justify-center'> <Image className='' src='/assets/MePixel.png' width={400} height={650} alt='' unoptimized/> </div>
                         <small>You can call me: Dale, Bon</small>
                     </div>
                 </div>

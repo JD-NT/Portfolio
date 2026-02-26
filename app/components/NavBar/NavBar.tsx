@@ -16,9 +16,9 @@ export default function NavBar() {
     <nav>
         <ul className='nav_links' onClick={closeSidebar}>
             <button className='close-button'onClick={closeSidebar} aria-label='Close Sidebar'><big>[x]</big></button>
-            <li> <Link href='/art'>Art<sup>[↗]</sup></Link></li>
-            <li> <Link href='/about'>About<sup>[↗]</sup></Link></li>
-            <li> <Link href='#footer'>Contact<sup>[↗]</sup></Link></li>
+            <li className='slide-anim-button'> <Link href='/art'>Art<sup>[↗]</sup></Link></li>
+            <li className='slide-anim-button'> <Link href='/about'>About<sup>[↗]</sup></Link></li>
+            <li className='slide-anim-button'> <Link href='#footer'>Contact<sup>[↗]</sup></Link></li>
         </ul>
     </nav>
     <a className='cta opacity-0'>Resume</a>
