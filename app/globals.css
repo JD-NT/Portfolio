@@ -28,6 +28,7 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
   scrollbar-gutter: thin;
+  font-smooth: never;
 }
 
 html {
@@ -266,6 +267,15 @@ sup{font-weight: 100;}
   background-position: left center, right center;
 }
 
+.mobile-hidden{
+  display: block;
+}
+
 @media screen and (max-width: 900px) {
     .layout-case{padding: 0 min(2em, 4%);}
+    .mobile-hidden{ display: none; }
+}
+
+@media screen and (max-width: 600px) {
+
 }

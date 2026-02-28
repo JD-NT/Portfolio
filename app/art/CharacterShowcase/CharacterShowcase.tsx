@@ -1,11 +1,24 @@
 import CharacterCard from '@/app/components/CharacterCard/CharacterCard'
 import './CharacterShowcase.css'
 import Link from 'next/link'
+import Image from 'next/image'
 
 function CharacterShowcase() { 
     return (
         <>
         <div className='layout-case'>
+            {/* <div className='w-100% text-center'><small>Section:</small></div>
+            <div className='page-name'><h6>Characters</h6></div> */}
+            
+            <div className='mobile-hidden'>
+                <div className='flex justify-between'>
+                    <div className='flex gap-[0.5em]'><Image src='/assets/Revolvis.png' width={40} height={16} alt='' priority /><small>Section: <br />Characters</small></div>
+                    <div className='flex'><small>Revolvis: <br /> Six Stars</small></div>
+                    <div className='flex'><small>My Own <br /> Characters</small></div>
+                    <small>©Dale</small>
+                </div>
+            </div>
+
             <div className='characters halftone-bg'>
                         <CharacterCard  
                         description='The 1st member of the Six Stars' 
@@ -26,10 +39,10 @@ function CharacterShowcase() {
                         <CharacterCard  
                         description='The 3rd member of the Six Stars' 
                         member='03' 
-                        name='Akiara' 
-                        imageSrc='/assets/AkiaraIcon.png' 
+                        name='Elizu'
+                        imageSrc='/assets/ElizuIcon.png'  
                         altText={''}
-                        linkto='/art/Akiara'/>
+                        linkto='/art/Elizu'/>
 
                         <CharacterCard  
                         description='The 4th member of the Six Stars' 
@@ -42,10 +55,10 @@ function CharacterShowcase() {
                         <CharacterCard  
                         description='The 5th member of the Six Stars' 
                         member='05' 
-                        name='Elizu' 
-                        imageSrc='/assets/ElizuIcon.png' 
+                        name='Akiara'
+                        imageSrc='/assets/AkiaraIcon.png'
                         altText={''}
-                        linkto='/art/Elizu'/>
+                        linkto='/art/Akiara'/>
 
                         <CharacterCard  
                         description='The newest member of the Six Stars' 

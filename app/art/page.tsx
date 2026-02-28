@@ -8,8 +8,16 @@ export default function Introduction() {
     return (
         <>
         <div className='layout-case'>
-        <div className='w-100% text-center'><small className='tracking-[.2em]'>Section:</small></div>
-        <h6 className='page-name'>Introduction</h6>
+            <div className='mobile-hidden'>
+                <div className='flex justify-between'>
+                    {/* <div><Image src='/assets/sprite.webp' width={40} height={16} alt='' priority /></div> */}
+                    <div className='flex'><Image src='/assets/sprite.webp' width={40} height={16} alt='' priority /><small>Section: <br /> Introduction</small></div>
+                    <div className='flex'><small>Welcome to<br /> my Website</small></div>
+                    <div className='flex'><small>Portfolio <br /> of Dale</small></div>
+                    <small></small>
+                </div>
+            </div>
+
             <div className="intro-layout halftone-bg">
                 <div className="intro-content1">
                     <div className=''>
@@ -28,13 +36,14 @@ export default function Introduction() {
             </div>
 
             <div className="intro-content2 profile-box bounding-box-L">
-                    <Image src='/assets/LogoCycle.gif' className='img-box' 
+                    <Image src='/assets/BunnyIcon.webp' className='img-box' 
                         width={240} 
                         height={240} 
                         alt='' 
                         priority
                     />
                     <div className='social-box'>
+                        <a className='social-link' href='mailto:bruh.itsbonkers0609@gmail.com'><Image src='/assets/gmail.webp' className='icon' width={16} height={16} alt=''/>Email</a>
                         <a className='social-link'><Image src='/assets/icons/bluesky.webp' className='icon' width={16} height={16} alt='' priority/>BlueSky</a>
                         <a className='social-link'><Image src='/assets/icons/twitter.webp' className='icon' width={16} height={16} alt='' priority/>X</a>
                         {/* <a className='social-link'><img src='./assets/VGen.webp' className='icon'/> VGen</a> */}

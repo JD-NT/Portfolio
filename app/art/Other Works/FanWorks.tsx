@@ -6,7 +6,7 @@ function FanWorks() {
         <>
         <div className='layout-case'>
             <small>Section:</small>
-            <h1 className='display-text'>Fan Works</h1>
+            <h1 className='display-text-pixel'>Fan Works</h1>
             <div className='gallery'>
                 <div>
                     <small className='image-section'>01</small>

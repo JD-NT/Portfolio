@@ -6,7 +6,7 @@ function PersonalWorks() {
         <>
         <div className='layout-case'>
             <small>Section:</small>
-            <h1 className='display-text'>Personal Works</h1>
+            <h1 className='display-text-pixel'>Personal Works</h1>
             <div className='gallery'>
                 <div>
                     <small className='image-section'>01</small>
