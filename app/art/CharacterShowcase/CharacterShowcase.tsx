@@ -26,7 +26,7 @@ function CharacterShowcase() {
                         name='Kuno' 
                         imageSrc='/assets/KunoIcon.png' 
                         altText={''}
-                        linkto='/art/Kuno'/>
+                        linkto='/art/SixStars/Kuno'/>
 
                         <CharacterCard  
                         description='The 2nd member of the Six Stars' 

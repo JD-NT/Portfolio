@@ -20,6 +20,8 @@ export default function Introduction() {
 
             <div className="intro-layout halftone-bg">
                 <div className="intro-content1">
+                    <div className='plus top-[-10px] right-[-10px]'><Image src='/assets/plus.png' width={40} height={16} alt='' priority /></div>
+                    <div className='plus top-[-10px] left-[-10px]'><Image src='/assets/plus.png' width={40} height={16} alt='' priority /></div>
                     <div className=''>
                         <h2 className='display-text slide-anim'>Character Designer & Pixel Artist</h2>
                         <small>2d Artist</small>
@@ -30,7 +32,7 @@ export default function Introduction() {
                 <div className='additional-content'>
                     <small>Utilitarian design is an art concept that argues for the products to be designed based on the utility.</small>
                     <small>Brutalism is a style with an emphasis on producing highly imposing, bold, and expressive forms that go against the norm.</small>
-                    <Image src='/assets/diagonalarrow.png' width={80} height={80} alt='' priority /> 
+                    <div className='aspect-square'><Image src='/assets/diagonalarrow.png' width={80} height={80} alt='' priority /></div> 
                     <small></small>
                 </div>
             </div>

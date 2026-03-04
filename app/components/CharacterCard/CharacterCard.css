@@ -15,8 +15,9 @@
     cursor: pointer;
 }
 
-.character-card img{
+.profile-img{
     aspect-ratio: 2 / 2;
+    background-color: var(--color-darkblue-50);
     width: 15em;
 }
 
@@ -25,8 +26,6 @@
     font-weight: 900;
     text-transform: uppercase;
     position: absolute;
-    top: -4px;
-    left: -1px;
 }
 
 .character-details{

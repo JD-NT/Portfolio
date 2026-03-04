@@ -27,6 +27,7 @@
 .about-me1 img{
     aspect-ratio: 2 / 3;
     object-fit: cover;
+    min-width: 200px;
 }
 
 .about-me2{

@@ -8,8 +8,10 @@ const CharacterCard = (props: characterName) => {
         <>
             <div>
                 <div className='character-card'>
-                    <div className='bounding-box-L my-[1em]'><Image className='grid-bg' src={props.imageSrc} width={320} height={320} quality={100} alt='' unoptimized/></div>
-                </div>
+                    <div className='plus bottom-[10px] right-[10px]'><Image src='/assets/plus.png' width={20} height={16} alt='' priority /></div>
+                    <div className='plus bottom-[10px] left-[10px]'><Image src='/assets/plus.png' width={20} height={16} alt='' priority /></div>
+                    <div className='bounding-box-L my-[1em]'><Image className='grid-bg profile-img' src={props.imageSrc} width={320} height={320} quality={100} alt='' unoptimized/></div>
+                    </div>
                 <a href={props.linkto}>
                 <div className='character-details'><h4>{props.name}<small>[↗]</small></h4><small>{props.description}</small></div>
                 </a>

@@ -12,6 +12,7 @@
   --color-darkblue-150: #181722;
   --color-white-50: #EBEBF3;
   --color-white-100: #B9B7CD;
+  --border: var(--color-white-100) 1px solid;
 }
 
 ::selection{
@@ -41,9 +42,9 @@ html {
 
 a{cursor: pointer;}
 
-h1,h2,h3,h4,h5,h6 { font-family: a4b03;}
+h1,h2,h3,h4,h5,h6 { font-family: a4b03; line-height: 1;}
 
-h1{ font-size: clamp(5rem, 6rem, 7vw); line-height: 0.8em;}
+h1{ font-size: clamp(5rem, 6rem, 7vw); line-height: 0.8;}
 
 h2{ font-size: clamp(4rem, 5rem, 6vw);}
 
@@ -269,6 +270,11 @@ sup{font-weight: 100;}
 
 .mobile-hidden{
   display: block;
+}
+
+.plus{ 
+    position: absolute;
+    width: 20px;
 }
 
 @media screen and (max-width: 900px) {

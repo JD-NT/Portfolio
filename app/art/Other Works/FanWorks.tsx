@@ -1,5 +1,6 @@
 import GalleryImage from '@/app/components/GalleryImage/GalleryImage'
 import './Works.css'
+import Image from 'next/image'
 
 function FanWorks() { 
     return (
