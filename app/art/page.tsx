@@ -10,7 +10,6 @@ export default function Introduction() {
         <div className='layout-case'>
             <div className='mobile-hidden'>
                 <div className='flex justify-between'>
-                    {/* <div><Image src='/assets/sprite.webp' width={40} height={16} alt='' priority /></div> */}
                     <div className='flex'><Image src='/assets/sprite.webp' width={40} height={16} alt='' priority /><small>Section: <br /> Introduction</small></div>
                     <div className='flex'><small>Welcome to<br /> my Website</small></div>
                     <div className='flex'><small>Portfolio <br /> of Dale</small></div>
@@ -23,7 +22,7 @@ export default function Introduction() {
                     <div className='plus top-[-10px] right-[-10px]'><Image src='/assets/plus.png' width={40} height={16} alt='' priority /></div>
                     <div className='plus top-[-10px] left-[-10px]'><Image src='/assets/plus.png' width={40} height={16} alt='' priority /></div>
                     <div className=''>
-                        <h2 className='display-text slide-anim'>Character Designer & Pixel Artist</h2>
+                        <h1 className='display-text slide-anim'>Character Designer & Pixel Artist</h1>
                         <small>2d Artist</small>
                     </div>
                 </div>

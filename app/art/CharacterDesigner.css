@@ -13,19 +13,6 @@
     gap: 1rem;
 } */
 
-.page-name{
-    font-size: clamp(1.25rem, 1.50rem, 2.5vw);;
-    display: grid;
-    grid-template-columns: 1fr max-content 1fr;
-    align-items: center;
-    gap: 0.5rem;
-}
-
-.page-name::before, .page-name::after{
-    content: '';
-    border-top: var(--color-white-100) 1px solid;
-}
-
 .intro-layout {
     display: grid;
     grid-template-columns: repeat(5, 1fr) / repeat(6, 1fr);

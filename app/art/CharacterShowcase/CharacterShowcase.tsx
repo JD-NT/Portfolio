@@ -34,7 +34,7 @@ function CharacterShowcase() {
                         name='Narole' 
                         imageSrc='/assets/NaroleIcon.png' 
                         altText={''}
-                        linkto='/art/Narole'/>
+                        linkto='/art/SixStars/Narole'/>
 
                         <CharacterCard  
                         description='The 3rd member of the Six Stars' 
@@ -42,7 +42,7 @@ function CharacterShowcase() {
                         name='Elizu'
                         imageSrc='/assets/ElizuIcon.png'  
                         altText={''}
-                        linkto='/art/Elizu'/>
+                        linkto='/art/SixStars/Elizu'/>
 
                         <CharacterCard  
                         description='The 4th member of the Six Stars' 
@@ -50,7 +50,7 @@ function CharacterShowcase() {
                         name='Vela' 
                         imageSrc='/assets/VelaIcon.png'  
                         altText={''}
-                        linkto='/art/Vela'/>
+                        linkto='/art/SixStars/Vela'/>
  
                         <CharacterCard  
                         description='The 5th member of the Six Stars' 
@@ -58,7 +58,7 @@ function CharacterShowcase() {
                         name='Akiara'
                         imageSrc='/assets/AkiaraIcon.png'
                         altText={''}
-                        linkto='/art/Akiara'/>
+                        linkto='/art/SixStars/Akiara'/>
 
                         <CharacterCard  
                         description='The newest member of the Six Stars' 
@@ -66,7 +66,7 @@ function CharacterShowcase() {
                         name='Sybila' 
                         imageSrc='/assets/SybilaIcon.png' 
                         altText={''}
-                        linkto='/art/Sybila'/>
+                        linkto='/art/SixStars/Sybila'/>
 
                 </div>
             </div>

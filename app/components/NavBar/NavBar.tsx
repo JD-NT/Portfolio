@@ -12,13 +12,13 @@ export default function NavBar() {
     return (
     <>
     <header className={`${isOpen ? 'show' : ''}`} /* isOpen is the state that the header is cuurently in and if setIsOpen is true it adds the 'show' class, otherwise it's blank*/ > 
-    <a href='/' className='logo'>Dale ₍ᐢ. .ᐢ₎</a>
+    <Link href='/art' className='logo'>Dale ₍ᐢ. .ᐢ₎</Link>
     <nav>
         <ul className='nav_links' onClick={closeSidebar}>
             <button className='close-button'onClick={closeSidebar} aria-label='Close Sidebar'><big>[x]</big></button>
-            <li className='slide-anim-button'> <Link href='/art'>Art<sup>[↗]</sup></Link></li>
-            <li className='slide-anim-button'> <Link href='/about'>About<sup>[↗]</sup></Link></li>
-            <li className='slide-anim-button'> <Link href='#footer'>Contact<sup>[↗]</sup></Link></li>
+            <Link href='/art'><li className='slide-anim-button'>Art<sup>[↗]</sup></li></Link>
+            <Link href='/about'><li className='slide-anim-button'>About<sup>[↗]</sup></li></Link>
+            <Link href='#footer'><li className='slide-anim-button'> Contact<sup>[↗]</sup></li></Link>
         </ul>
     </nav>
     <a className='cta opacity-0'>Resume</a>

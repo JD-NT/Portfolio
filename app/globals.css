@@ -141,7 +141,7 @@ sup{font-weight: 100;}
   animation-duration: 1.25s;
   transition: ease-out;
   -webkit-animation-name: slide-animation;
-  -webkit-animation-duration: 1.25s;
+  -webkit-animation-duration: 1.5s;
   -webkit-transition: ease-in;
   animation-timeline: view();
   animation-range: entry 0;
@@ -276,6 +276,20 @@ sup{font-weight: 100;}
     position: absolute;
     width: 20px;
 }
+
+.page-name{
+    font-size: clamp(1.25rem, 1.50rem, 2.5vw);;
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.page-name::before, .page-name::after{
+    content: '';
+    border-top: var(--color-white-100) 1px solid;
+}
+
 
 @media screen and (max-width: 900px) {
     .layout-case{padding: 0 min(2em, 4%);}
