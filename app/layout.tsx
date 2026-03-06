@@ -4,8 +4,8 @@ import "./globals.css";
 import Footer from "./components/Footer/Footer";
 
 export const metadata: Metadata = {
-  title: "Portfolio",
-  description: "The Portfolio of John Dale",
+  title: "Dale's Warren",
+  description: "The Portfolio of Dale",
 };
 
 export default function RootLayout({
