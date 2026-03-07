@@ -60,7 +60,7 @@ small{ color: var(--color-white-100); font-size: clamp(0.5rem, 0.75rem, 1rem); l
 
 big{ font-size: clamp(1rem, 1.2rem, 1.75rem);}
 
-p, ul, li, a{ white-space: wrap; font-size: clamp(0.75rem, 0.85rem, 1rem); letter-spacing: 15%; line-height: 1.25rem;  font-weight: 300;}
+p, ul, li, a, Links{ white-space: wrap; font-size: clamp(0.75rem, 0.85rem, 1rem); letter-spacing: 15%; line-height: 1.25rem;  font-weight: 300;}
 
 sup{font-weight: 100;}
 
@@ -108,18 +108,6 @@ sup{font-weight: 100;}
   background-image: linear-gradient(#b9b7cd42 .01em, transparent .1em), linear-gradient(90deg, #b9b7cd42 .01em, transparent .1em);
   background-size: 2.5em 2.5em;
 }
-
-.separator-x{ border-block: var(--color-white-100) 1px solid; }
-
-.separator-y{ border-inline: var(--color-white-100) 1px solid; }
-
-.separator-top-h{ border-top: var(--color-white-100) 1px solid; line-height: 1.15em; }
-
-.separator-bottom-h{ border-bottom: var(--color-white-100) 1px solid; line-height: 1.15em; }
-
-.separator-top-p{ border-top: var(--color-white-100) 1px solid; }
-
-.separator-bottom-p{ border-bottom: var(--color-white-100) 1px solid; }
 
 .slide-anim-button {
   background: linear-gradient(to right, var(--color-white-50) 50%, transparent 50%);
@@ -194,10 +182,9 @@ sup{font-weight: 100;}
 }
 
 .bounding-box {
-  border: 1px solid var(--color-white-100);
+  border: var(--border);
   position: relative;
   padding: 0.5em 1em;
-  width: fit-content;
 }
 
 .bounding-box::before,
@@ -287,7 +274,7 @@ sup{font-weight: 100;}
 
 .page-name::before, .page-name::after{
     content: '';
-    border-top: var(--color-white-100) 1px solid;
+    border-top: var(--border);
 }
 
 

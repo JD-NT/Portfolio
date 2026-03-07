@@ -3,6 +3,7 @@ import FanWorks from './Other Works/FanWorks'
 import PersonalWorks from './Other Works/PersonalWorks'
 import './CharacterDesigner.css'
 import Image from 'next/image'
+import { Metadata } from 'next'
 
 export default function Introduction() { 
     return (

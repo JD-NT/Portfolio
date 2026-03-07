@@ -16,7 +16,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="./assets/sprite-0002.ico" type="images/x-icon" sizes="any" />
+        <link rel="icon" href="/assets/sprite-0002.ico" type="images/x-icon" sizes="any" />
       </head>
       <body>
         <NavBar />

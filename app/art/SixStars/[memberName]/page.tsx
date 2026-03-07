@@ -3,6 +3,20 @@ import { notFound } from 'next/navigation';
 import Image from 'next/image'
 import members from '@/public/members.json'
 
+type Props = {
+  params: Promise<{ memberName: string }>;
+};
+
+export async function generateMetadata({ params }: Props) {
+  const { memberName } = await params;
+  const member = members.find((m) => m.memberName === memberName);
+
+  if (!member) return {};
+
+  return {
+    title:member.memberName,
+  };
+}
 
 export default async function MemberDetails({
     params,
@@ -63,7 +77,7 @@ export default async function MemberDetails({
             <div className='flex justify-center text-center'><small>Section:</small></div>
             <h6 className='page-name'>Extras</h6>
                 <div className='extras-gallery'>
-                    <Image className='' src={member.extras1} width={400} height={200} alt='' unoptimized/>
+                    <Image className='' src={member.extras1} width={1000} height={1000} alt='' unoptimized/>
                     <Image className='' src={member.extras2} width={400} height={650} alt='' unoptimized/>
                     <Image className='' src={member.extras3} width={400} height={650} alt='' unoptimized/>
                     <Image className='' src={member.extras4} width={400} height={650} alt='' unoptimized/>
