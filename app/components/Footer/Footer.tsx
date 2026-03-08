@@ -9,7 +9,7 @@ export default function Footer() {
                 <div className='links1'>
                     <div className='flex'><small>Email:</small> <div className='hazard-background-thin flex-grow-1 self-center'></div></div>
                         <a className='social-link' href='mailto:bruh.itsbonkers0609@gmail.com'>
-                            <Image src='/assets/gmail.webp' className='icon' width={16} height={16} alt=''/>
+                            <Image src='/assets/icons/gmail.webp' className='icon' width={16} height={16} alt=''/>
                                 bruh.itsbonkers0609@gmail.com
                         </a>
                 </div>
