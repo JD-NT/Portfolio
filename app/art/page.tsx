@@ -46,8 +46,8 @@ export default function Introduction() {
                     />
                     <div className='social-box'>
                         <a className='social-link' href='mailto:bruh.itsbonkers0609@gmail.com'><Image src='/assets/icons/gmail.webp' className='icon' width={16} height={16} alt=''/>Email</a>
-                        <a className='social-link'><Image src='/assets/icons/bluesky.webp' className='icon' width={16} height={16} alt='' />BlueSky</a>
-                        <a className='social-link'><Image src='/assets/icons/twitter.webp' className='icon' width={16} height={16} alt='' />X</a>
+                        <a className='social-link' href='https://bsky.app/profile/bruhitsbon.bsky.social'><Image src='/assets/icons/bluesky.webp' className='icon' width={16} height={16} alt='' />BlueSky</a>
+                        <a className='social-link' href='https://x.com/BruhItsBon'><Image src='/assets/icons/twitter.webp' className='icon' width={16} height={16} alt='' />X</a>
                         {/* <a className='social-link'><img src='./assets/VGen.webp' className='icon'/> VGen</a> */}
                     </div>
                     <div className='desc-box'>
