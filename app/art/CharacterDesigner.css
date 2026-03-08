@@ -82,6 +82,7 @@
     flex-grow: 1;
     align-content: center;
     height: 100%;
+    min-width: 200px;
 }
 
 .icon{

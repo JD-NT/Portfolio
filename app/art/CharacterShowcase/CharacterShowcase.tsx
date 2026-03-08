@@ -12,7 +12,7 @@ function CharacterShowcase() {
             
             <div className='mobile-hidden'>
                 <div className='flex justify-between'>
-                    <div className='flex gap-[0.5em]'><Image src='/assets/Revolvis.png' width={40} height={16} alt='' priority /><small>Section: <br />Characters</small></div>
+                    <div className='flex gap-[0.5em]'><Image src='/assets/revolvis.png' width={40} height={16} alt='' priority /><small>Section: <br />Characters</small></div>
                     <div className='flex'><small>Revolvis: <br /> Six Stars</small></div>
                     <div className='flex'><small>My Own <br /> Characters</small></div>
                     <small>©Dale</small>
