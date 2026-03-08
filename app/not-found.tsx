@@ -20,7 +20,7 @@ export default function NotFound() {
                 </div>
         </div>
 
-            <div className='flex flex-col justify-around h-[85dvh]'>
+            <div className='flex flex-col justify-around halftone-bg h-[85dvh]'>
             <div className='relative'>
                 <div className='plus top-[-10px] right-[-10px]'><Image src='/assets/plus.png' width={40} height={16} alt='' priority /></div>
                 <div className='plus top-[-10px] left-[-10px]'><Image src='/assets/plus.png' width={40} height={16} alt='' priority /></div>
@@ -28,10 +28,10 @@ export default function NotFound() {
 
             <div className='text-center block'>
                 <h2 className='display-text-pixel'>404 Error: Page Not Found <br /> (X_X)</h2>
-                <small>This error is caused due to this page not existing (broken links) or due to device / network issues.</small>
+                <small>This error is caused due to the page not existing (broken links) or due to device / network issues.</small>
                 <br />
                 <small>Please return to the homepage</small>
-                <h6><a href='/art'>Homepage<sup>[↗]</sup></a></h6>
+                <h6><a href='/art'>[Homepage]</a></h6>
             </div>
 
             <div className='relative'>

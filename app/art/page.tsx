@@ -11,17 +11,17 @@ export default function Introduction() {
         <div className='layout-case'>
             <div className='mobile-hidden'>
                 <div className='flex justify-between'>
-                    <div className='flex'><Image src='/assets/sprite.webp' width={40} height={16} alt='' priority /><small>Section: <br /> Introduction</small></div>
+                    <div className='flex'><Image src='/assets/sprite.webp' width={40} height={16} alt=''  /><small>Section: <br /> Introduction</small></div>
                     <div className='flex'><small>Welcome to<br /> my Website</small></div>
                     <div className='flex'><small>Portfolio <br /> of Dale</small></div>
-                    <small></small>
+                    <div className='flex'><Image src='/assets/halftone.png' width={40} height={16} alt='' /><Image src='/assets/halftone.png' width={40} height={16} alt='' /></div>
                 </div>
             </div>
 
             <div className="intro-layout halftone-bg">
                 <div className="intro-content1">
-                    <div className='plus top-[-10px] right-[-10px]'><Image src='/assets/plus.png' width={40} height={16} alt='' priority /></div>
-                    <div className='plus top-[-10px] left-[-10px]'><Image src='/assets/plus.png' width={40} height={16} alt='' priority /></div>
+                    <div className='plus top-[-10px] right-[-10px]'><Image src='/assets/plus.png' width={40} height={16} alt=''  /></div>
+                    <div className='plus top-[-10px] left-[-10px]'><Image src='/assets/plus.png' width={40} height={16} alt=''  /></div>
                     <div className=''>
                         <h1 className='display-text slide-anim'>Character Designer & Pixel Artist</h1>
                         <small>2d Artist</small>
@@ -32,7 +32,7 @@ export default function Introduction() {
                 <div className='additional-content'>
                     <small>Utilitarian design is an art concept that argues for the products to be designed based on the utility.</small>
                     <small>Brutalism is a style with an emphasis on producing highly imposing, bold, and expressive forms that go against the norm.</small>
-                    <div className='aspect-square'><Image src='/assets/diagonalarrow.png' width={80} height={80} alt='' priority /></div> 
+                    <div className='aspect-square'><Image src='/assets/diagonalarrow.png' width={80} height={80} alt=''  /></div> 
                     <small></small>
                 </div>
             </div>
@@ -45,9 +45,9 @@ export default function Introduction() {
                         priority
                     />
                     <div className='social-box'>
-                        <a className='social-link' href='mailto:bruh.itsbonkers0609@gmail.com'><Image src='/assets/gmail.webp' className='icon' width={16} height={16} alt=''/>Email</a>
-                        <a className='social-link'><Image src='/assets/icons/bluesky.webp' className='icon' width={16} height={16} alt='' priority/>BlueSky</a>
-                        <a className='social-link'><Image src='/assets/icons/twitter.webp' className='icon' width={16} height={16} alt='' priority/>X</a>
+                        <a className='social-link' href='mailto:bruh.itsbonkers0609@gmail.com'><Image src='/assets/icons/gmail.webp' className='icon' width={16} height={16} alt=''/>Email</a>
+                        <a className='social-link'><Image src='/assets/icons/bluesky.webp' className='icon' width={16} height={16} alt='' />BlueSky</a>
+                        <a className='social-link'><Image src='/assets/icons/twitter.webp' className='icon' width={16} height={16} alt='' />X</a>
                         {/* <a className='social-link'><img src='./assets/VGen.webp' className='icon'/> VGen</a> */}
                     </div>
                     <div className='desc-box'>

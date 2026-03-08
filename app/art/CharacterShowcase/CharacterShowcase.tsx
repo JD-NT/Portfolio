@@ -24,7 +24,7 @@ function CharacterShowcase() {
                         description='The 1st member of the Six Stars' 
                         member='01' 
                         name='Kuno' 
-                        imageSrc='/assets/KunoIcon.png' 
+                        imageSrc='/assets/pfp/KunoIcon.png' 
                         altText={''}
                         linkto='/art/SixStars/Kuno'/>
 
@@ -32,7 +32,7 @@ function CharacterShowcase() {
                         description='The 2nd member of the Six Stars' 
                         member='02' 
                         name='Narole' 
-                        imageSrc='/assets/NaroleIcon.png' 
+                        imageSrc='/assets/pfp/NaroleIcon.png' 
                         altText={''}
                         linkto='/art/SixStars/Narole'/>
 
@@ -40,31 +40,31 @@ function CharacterShowcase() {
                         description='The 3rd member of the Six Stars' 
                         member='03' 
                         name='Elizu'
-                        imageSrc='/assets/ElizuIcon.png'  
+                        imageSrc='/assets/pfp/ElizuIcon.png'  
                         altText={''}
                         linkto='/art/SixStars/Elizu'/>
 
                         <CharacterCard  
                         description='The 4th member of the Six Stars' 
-                        member='04' 
-                        name='Vela' 
-                        imageSrc='/assets/VelaIcon.png'  
-                        altText={''}
-                        linkto='/art/SixStars/Vela'/>
- 
-                        <CharacterCard  
-                        description='The 5th member of the Six Stars' 
                         member='05' 
                         name='Akiara'
-                        imageSrc='/assets/AkiaraIcon.png'
+                        imageSrc='/assets/pfp/AkiaraIcon.png'
                         altText={''}
                         linkto='/art/SixStars/Akiara'/>
 
                         <CharacterCard  
+                        description='The 5th member of the Six Stars' 
+                        member='04' 
+                        name='Vela' 
+                        imageSrc='/assets/pfp/VelaIcon.png'  
+                        altText={''}
+                        linkto='/art/SixStars/Vela'/>
+ 
+                        <CharacterCard  
                         description='The newest member of the Six Stars' 
                         member='06' 
                         name='Sybila' 
-                        imageSrc='/assets/SybilaIcon.png' 
+                        imageSrc='/assets/pfp/SybilaIcon.png' 
                         altText={''}
                         linkto='/art/SixStars/Sybila'/>
 

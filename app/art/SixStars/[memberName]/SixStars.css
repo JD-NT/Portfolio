@@ -17,7 +17,7 @@
 .character-profile{
     padding: 2em 3em;
     justify-content: center;
-    border: 1px var(--color-white-100) solid;
+    border: var(--border);
 }
 
 .character-profile img{
@@ -69,7 +69,7 @@
 .accessory{
     justify-content: center;
     align-content: center;
-    border: 1px var(--color-white-100) solid;
+    border: var(--border);
     padding: 2em;
 }
 
@@ -85,7 +85,7 @@
     flex-direction: column;
     justify-content: space-between;
     align-content: center;
-    border: 1px var(--color-white-100) solid;
+    border: var(--border);
     padding: 4em;
     text-align: center;
 }
@@ -106,6 +106,7 @@
 .extras-gallery img {
     max-width: 100%;
     width: max-content;
+    max-height: 700px;
 }
 
 @media screen and (max-width: 700px) {    
@@ -118,6 +119,10 @@
 .extra-info{
     grid-template-columns: repeat(auto-fit, minmax(80%, 1fr)); 
     gap: 1em 0;
+}
+
+.extra-accessory{
+    gap: 2em;
 }
 
 }

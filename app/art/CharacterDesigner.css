@@ -56,14 +56,14 @@
 }
 
 .intro-desc{
-    border: var(--color-white-100) 1px solid;
+    border: var(--border);
     display: none;
     padding: 0.5em 1em;
     align-items: center;
 }
 
 .profile-box{
-    border: var(--color-white-100) 1px solid;
+    border: var(--border);
     display: flex;
     align-items: center;
     background-color: var(--color-darkblue-50);
@@ -78,7 +78,7 @@
 
 .social-box{
     padding: 0.5em 1em;
-    border-left: var(--color-white-100) 1px solid;
+    border-left: var(--border);
     flex-grow: 1;
     align-content: center;
     height: 100%;
@@ -93,7 +93,7 @@
 
 .desc-box{
     padding: 1em 1em;
-    border-left: var(--color-white-100) 1px solid;
+    border-left: var(--border);
     flex-grow: 2;
     height: 100%;
     max-width: 1350px;

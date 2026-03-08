@@ -7,7 +7,7 @@
 
 .about-section::after{
     content: '';
-    border-top: var(--color-white-100) 1px solid;
+    border-top: var(--border);
 }
 
 .about-layout {
@@ -21,7 +21,7 @@
 .about-me1{
     padding: 2em 3em;
     justify-content: center;
-    border: 1px var(--color-white-100) solid;
+    border: var(--border);
 }
 
 .about-me1 img{
@@ -40,13 +40,13 @@
 
 .about-description{
     flex-grow: 2;
-    border: 1px var(--color-white-100) solid;
+    border: var(--border);
     padding: 2em;
 }
 
 .about-hobbies{
     flex-grow: 1;
-    border: 1px var(--color-white-100) solid;
+    border: var(--border);
     padding: 2em;
 }
 

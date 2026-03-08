@@ -31,7 +31,7 @@ export default async function MemberDetails({
             <div className='layout-case'>
             <div className='group-intro'>
                 <h3 className=''>Six Stars</h3>
-                <div className='flex'><small>Details:</small> <div className='hazard-background-thin flex-grow-1 self-center max-w-[5em]'></div></div>
+                <div className='flex'><small>{member.id}:</small> <div className='hazard-background-thin flex-grow-1 self-center max-w-[5em]'></div></div>
             </div>
             <div className='character-info'>
                 <div className='character-profile'>
@@ -66,10 +66,9 @@ export default async function MemberDetails({
                         <small>asdsad</small>
                     </div>
                 </div>
-                <div className='extra-accessory halftone-bg'>
-                    <div className='bounding-box-L'><Image className='' src={member.accessoryPrimary} width={400} height={650} alt='' unoptimized/></div>
-                    <h3>Extras</h3>
-                    <div className='bounding-box-L'><Image className='' src={member.accessorySecondary} width={400} height={650} alt='' unoptimized/></div>
+                <div className='extra-accessory grid-bg'>
+                    <div className='bounding-box-L bg-[var(--color-white-100)]'><Image className='' src={member.accessoryPrimary} width={420} height={320} alt='' unoptimized/></div>
+                    <div className='bounding-box-L bg-[var(--color-white-100)]'><Image className='' src={member.accessorySecondary} width={420} height={320} alt='' unoptimized/></div>
                 </div>
             </div>
             
@@ -78,9 +77,6 @@ export default async function MemberDetails({
             <h6 className='page-name'>Extras</h6>
                 <div className='extras-gallery'>
                     <Image className='' src={member.extras1} width={1000} height={1000} alt='' unoptimized/>
-                    <Image className='' src={member.extras2} width={400} height={650} alt='' unoptimized/>
-                    <Image className='' src={member.extras3} width={400} height={650} alt='' unoptimized/>
-                    <Image className='' src={member.extras4} width={400} height={650} alt='' unoptimized/>
                 </div>
             </div>
         </div>

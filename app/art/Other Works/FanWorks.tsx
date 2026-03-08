@@ -13,7 +13,7 @@ function FanWorks() {
                     <small className='image-section'>01</small>
                     <GalleryImage imageSrc='/assets/otherWorks/MachineLoveFinal.png' title='Machine Love'></GalleryImage>
                     <GalleryImage imageSrc='/assets/otherWorks/Misha.png' title='Misha'></GalleryImage>
-                    <GalleryImage imageSrc='/assets/otherWorks/GolShi CPM.gif' title='Gold Ship (Minecraft Skin)'></GalleryImage>
+                    <GalleryImage imageSrc='/assets/otherWorks/Golshi CPM.gif' title='Gold Ship (Minecraft Skin)'></GalleryImage>
                 </div>
                 <div>
                     <small className='image-section'>02</small>

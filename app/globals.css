@@ -74,9 +74,7 @@ sup{font-weight: 100;}
 
 .display-text{
     font-family: Onder;
-    font-size: clamp(1vw, 5vw, 6rem);     
-    /* font-size: clamp(3.75rem, 10rem, 12vw); If I  want to use the pixel font*/
-    font-weight: 900;
+    font-size: clamp(1vw, 5vw, 6rem);
     text-transform: uppercase;
     line-height: 1.5em;
 }
@@ -125,14 +123,8 @@ sup{font-weight: 100;}
   background: linear-gradient(to right, var(--color-white-50) 50%, transparent 50%);
   background-size: 200% 100%;
   background-position: 100%;
-  animation-name: slide-animation;
-  animation-duration: 1.25s;
   transition: ease-out;
-  -webkit-animation-name: slide-animation;
-  -webkit-animation-duration: 1.5s;
-  -webkit-transition: ease-in;
-  animation-timeline: view();
-  animation-range: entry 0;
+  animation: 1.5s slide-animation;
 }
 
 @keyframes slide-animation {
@@ -212,7 +204,7 @@ sup{font-weight: 100;}
 
 .bounding-box-L {
   position: relative;
-  border: 1px solid var(--color-white-100);
+  border: var(--border);
 }
 
 .bounding-box-L::before {

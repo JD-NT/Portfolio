@@ -15,7 +15,7 @@
 
 .image-section::after{
     content: '';
-    border-top: var(--color-white-100) 1px solid;
+    border-top: var(--border);
 }
 
 @media screen and (max-width: 500px) {    
