@@ -5,7 +5,7 @@ import Footer from "./components/Footer/Footer";
 
 export const metadata: Metadata = {
   title: "Dale's Warren",
-  description: "The Portfolio of Dale",
+  description: "I'm Dale, a Pixel Artist and Character Designer.. this site is best viewed on desktop but will work on other devices ^_^",
 };
 
 export default function RootLayout({

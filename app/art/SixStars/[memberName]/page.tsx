@@ -30,13 +30,13 @@ export default async function MemberDetails({
     return (
             <div className='layout-case'>
             <div className='group-intro'>
-                <h3 className=''>Six Stars</h3>
+                <div className='flex'><h6 className='self-center'>Six Stars: </h6> <Image className='aspect-square' src='/assets/revolvis.png' draggable='false' width={48} height={32} alt=''/></div>
                 <div className='flex'><small>{member.id}:</small> <div className='hazard-background-thin flex-grow-1 self-center max-w-[5em]'></div></div>
             </div>
             <div className='character-info'>
                 <div className='character-profile'>
                     <div>
-                        <div className='aspect-square bounding-box-L flex justify-center halftone-bg'> <Image className='' src={member.profile} width={600} height={650} alt='' unoptimized/> </div>
+                        <div className='aspect-square bounding-box-L flex justify-center halftone-bg'> <Image className='' src={member.profile} draggable='false' width={600} height={650} alt='' unoptimized/> </div>
                         <small>Profile</small>
                     </div>
                 </div>
@@ -62,13 +62,13 @@ export default async function MemberDetails({
                     <h3>Accessories<small>Weapons</small></h3>
                     <div className='accessory'>
                         <h3 className='align-end'></h3>
-                        <div className='halftone-bg bounding-box-L'><Image className='' src={member.accessoryMain} width={600} height={600} alt='' unoptimized/></div>
+                        <div className='halftone-bg bounding-box-L'><Image className='' src={member.accessoryMain} draggable='false' width={600} height={600} alt='' unoptimized/></div>
                         <small>asdsad</small>
                     </div>
                 </div>
                 <div className='extra-accessory grid-bg'>
-                    <div className='bounding-box-L bg-[var(--color-white-100)]'><Image className='' src={member.accessoryPrimary} width={420} height={320} alt='' unoptimized/></div>
-                    <div className='bounding-box-L bg-[var(--color-white-100)]'><Image className='' src={member.accessorySecondary} width={420} height={320} alt='' unoptimized/></div>
+                    <div className='bounding-box-L bg-[var(--color-white-100)]'><Image className='' src={member.accessoryPrimary} draggable='false' width={420} height={320} alt='' unoptimized/></div>
+                    <div className='bounding-box-L bg-[var(--color-white-100)]'><Image className='' src={member.accessorySecondary} draggable='false' width={420} height={320} alt='' unoptimized/></div>
                 </div>
             </div>
             
@@ -76,7 +76,7 @@ export default async function MemberDetails({
             <div className='flex justify-center text-center'><small>Section:</small></div>
             <h6 className='page-name'>Extras</h6>
                 <div className='extras-gallery'>
-                    <Image className='' src={member.extras1} width={1000} height={1000} alt='' unoptimized/>
+                    <Image className='' src={member.extras1} draggable='false' width={1000} height={1000} alt='' unoptimized/>
                 </div>
             </div>
         </div>

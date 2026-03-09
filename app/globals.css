@@ -30,6 +30,7 @@
   scroll-behavior: smooth;
   scrollbar-gutter: thin;
   font-smooth: never;
+  user-select: none;
 }
 
 html {
@@ -56,11 +57,11 @@ h5{ font-size: clamp(2rem, 2rem, 3vw);}
 
 h6{ font-size: clamp(1.25rem, 1.50rem, 2.5vw);}
 
-small{ color: var(--color-white-100); font-size: clamp(0.5rem, 0.75rem, 1rem); letter-spacing: 0.15em; text-transform: uppercase;}
+small{ color: var(--color-white-100); font-size: clamp(0.6rem, 0.8rem, 1rem); letter-spacing: 0.15em; text-transform: uppercase;}
 
 big{ font-size: clamp(1rem, 1.2rem, 1.75rem);}
 
-p, ul, li, a, Links{ white-space: wrap; font-size: clamp(0.75rem, 0.85rem, 1rem); letter-spacing: 15%; line-height: 1.25rem;  font-weight: 300;}
+p, ul, li, a{ white-space: wrap; font-size: clamp(0.85rem, 0.95rem, 1rem); letter-spacing: 15%; line-height: 1.25rem;  font-weight: 300;}
 
 sup{font-weight: 100;}
 
@@ -74,7 +75,7 @@ sup{font-weight: 100;}
 
 .display-text{
     font-family: Onder;
-    font-size: clamp(1vw, 5vw, 6rem);
+    font-size: clamp(1vw, 4.5vw, 5rem);
     text-transform: uppercase;
     line-height: 1.5em;
 }

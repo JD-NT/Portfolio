@@ -49,11 +49,19 @@ header {
   cursor: pointer;
 }
 
-.hamburger-button { margin: min(2em, 4%) min(4em, 8%); margin-left: auto;  display: none; cursor: pointer; position: sticky; top: min(2em, 4%); z-index: 5;}
+.hamburger-button { 
+  padding: min(1em, 4%) min(4em, 8%); 
+  margin-left: auto;  
+  display: none; 
+  cursor: pointer; 
+  position: sticky; 
+  top: min(1em, 4%); 
+  z-index: 5; 
+}
 
 .hamburger-icon { width: 1.5em; height: 1px; background-color: var(--color-white-50); margin: 6px 0;}
 
-.close-button{ margin: min(2.25rem) min(1.75rem); margin-left: auto; display: none; cursor: pointer; position: absolute; top: 0; right: 0;}
+.close-button{ padding: min(2.25rem) min(1.75rem); margin-left: auto; display: none; cursor: pointer; position: absolute; top: 0; right: 0;}
 
 .overlay{
   background-image: url("/assets/overlaybg.png");

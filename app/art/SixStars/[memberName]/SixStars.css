@@ -8,9 +8,8 @@
     margin-block: 1em;
 }
 
-.group-intro h3{
+.group-intro h6{
     font-family: Onder;
-    font-size: clamp(1rem, 2rem, 2vw);
     line-height: 1.5;
 }
 

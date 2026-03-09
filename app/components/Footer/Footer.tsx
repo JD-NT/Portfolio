@@ -8,16 +8,16 @@ export default function Footer() {
                 <h5>Contact Me (^-^)</h5>
                 <div className='links1'>
                     <div className='flex'><small>Email:</small> <div className='hazard-background-thin flex-grow-1 self-center'></div></div>
-                        <a className='social-link' href='mailto:bruh.itsbonkers0609@gmail.com'>
-                            <Image src='/assets/icons/gmail.webp' className='icon' width={16} height={16} alt=''/>
+                        <a className='social-link' href='mailto:bruh.itsbonkers0609@gmail.com' target='_blank'>
+                            <Image src='/assets/icons/gmail.webp' draggable='false' className='icon' width={16} height={16} alt=''/>
                                 bruh.itsbonkers0609@gmail.com
                         </a>
                 </div>
 
                 <div className='links2'>
                     <div className='flex'><small>Social Media:</small> <div className='hazard-background-thin flex-grow-1 self-center'></div></div>
-                        <a className='social-link' href='https://bsky.app/profile/bruhitsbon.bsky.social'><Image src='/assets/icons/bluesky.webp' className='icon' width={16} height={16} alt=''/>BlueSky</a>
-                        <a className='social-link' href='https://x.com/BruhItsBon'><Image src='/assets/icons/twitter.webp' className='icon' width={16} height={16} alt=''/>X</a>
+                        <a className='social-link' href='https://bsky.app/profile/bruhitsbon.bsky.social' target='_blank'><Image src='/assets/icons/bluesky.webp' draggable='false' className='icon' width={16} height={16} alt=''/>BlueSky</a>
+                        <a className='social-link' href='https://x.com/BruhItsBon' target='_blank'><Image src='/assets/icons/twitter.webp' draggable='false' className='icon' width={16} height={16} alt=''/>X</a>
                 </div>
 
                 <div className='links3'>
