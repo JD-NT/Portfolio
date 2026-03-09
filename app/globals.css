@@ -57,7 +57,7 @@ h5{ font-size: clamp(2rem, 2rem, 3vw);}
 
 h6{ font-size: clamp(1.25rem, 1.50rem, 2.5vw);}
 
-small{ color: var(--color-white-100); font-size: clamp(0.6rem, 0.8rem, 1rem); letter-spacing: 0.15em; text-transform: uppercase;}
+small{ color: var(--color-white-100); font-size: clamp(0.5rem, 0.75rem, 1rem); letter-spacing: 0.15em; text-transform: uppercase;}
 
 big{ font-size: clamp(1rem, 1.2rem, 1.75rem);}
 
