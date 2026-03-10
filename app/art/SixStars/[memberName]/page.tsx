@@ -63,7 +63,7 @@ export default async function MemberDetails({
                     <div className='accessory'>
                         <h3 className='align-end'></h3>
                         <div className='halftone-bg bounding-box-L'><Image className='' src={member.accessoryMain} draggable='false' width={600} height={600} alt='' unoptimized/></div>
-                        <small>asdsad</small>
+                        <small>{member.id}</small>
                     </div>
                 </div>
                 <div className='extra-accessory grid-bg'>
