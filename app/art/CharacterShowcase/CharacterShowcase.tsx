@@ -25,7 +25,7 @@ function CharacterShowcase() {
                         member='01' 
                         name='Kuno' 
                         imageSrc='/assets/pfp/KunoIcon.png' 
-                        altText={''}
+                        altText='A front view profile of Kuno'
                         linkto='/art/SixStars/Kuno'/>
 
                         <CharacterCard  
@@ -33,7 +33,7 @@ function CharacterShowcase() {
                         member='02' 
                         name='Narole' 
                         imageSrc='/assets/pfp/NaroleIcon.png' 
-                        altText={''}
+                        altText='A front view profile of Narole'
                         linkto='/art/SixStars/Narole'/>
 
                         <CharacterCard  
@@ -41,7 +41,7 @@ function CharacterShowcase() {
                         member='03' 
                         name='Elizu'
                         imageSrc='/assets/pfp/ElizuIcon.png'  
-                        altText={''}
+                        altText='A front view profile of Elizu'
                         linkto='/art/SixStars/Elizu'/>
 
                         <CharacterCard  
@@ -49,7 +49,7 @@ function CharacterShowcase() {
                         member='05' 
                         name='Akiara'
                         imageSrc='/assets/pfp/AkiaraIcon.png'
-                        altText={''}
+                        altText='A front view profile of Akiara'
                         linkto='/art/SixStars/Akiara'/>
 
                         <CharacterCard  
@@ -57,7 +57,7 @@ function CharacterShowcase() {
                         member='04' 
                         name='Vela' 
                         imageSrc='/assets/pfp/VelaIcon.png'  
-                        altText={''}
+                        altText='A front view profile of Vela'
                         linkto='/art/SixStars/Vela'/>
  
                         <CharacterCard  
@@ -65,7 +65,7 @@ function CharacterShowcase() {
                         member='06' 
                         name='Sybila' 
                         imageSrc='/assets/pfp/SybilaIcon.png' 
-                        altText={''}
+                        altText='A front view profile of Sybila'
                         linkto='/art/SixStars/Sybila'/>
 
                 </div>
