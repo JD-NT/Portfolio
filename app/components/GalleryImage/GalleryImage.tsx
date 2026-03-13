@@ -20,9 +20,16 @@ const GalleryImage = (props: Image)  => {
             <div className='galleryimage' 
             onClick={openImageModal}
             >
-                <Image src={props.imageSrc} draggable='false' width={1000} height={960} quality={80} alt={props.altText}/>
+                <button><Image src={props.imageSrc} draggable='false' width={1000} height={960} quality={80} alt={props.altText}/></button>
                 <small><i>{props.title}</i></small>
             </div>
+
+            {/* <button onClick={openImageModal} className='cursor-zoom-in'>
+                <div className='image-showcase'>
+                    <Image src={props.imageSrc} draggable='false' width={1000} height={960} quality={80} alt={props.altText}/>
+                    <small className='title-text2'><i>{props.title}</i></small>
+                </div>
+            </button> */}
 
             <div className={`${isOpen ? 'open-modal' : ''} image-modal`}>
                 <Image src={props.imageSrc} draggable='false' width={900} height={860} alt='' onClick={closeImageModal} unoptimized/>

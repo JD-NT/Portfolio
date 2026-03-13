@@ -30,7 +30,7 @@ export default async function MemberDetails({
     return (
             <div className='layout-case'>
             <div className='group-intro'>
-                <div className='flex'><h6 className='self-center'>Six Stars: </h6> <Image className='aspect-square' src='/assets/revolvis.png' draggable='false' width={48} height={32} alt=''/></div>
+                <div className='flex'><h6 className='self-center'>//Six Stars: </h6> <Image className='aspect-square' src='/assets/revolvis.png' draggable='false' width={48} height={32} alt=''/></div>
                 <div className='flex'><small>{member.id}:</small> <div className='hazard-background-thin flex-grow-1 self-center max-w-[5em]'></div></div>
             </div>
             <div className='character-info'>

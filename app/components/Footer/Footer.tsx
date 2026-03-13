@@ -5,7 +5,7 @@ export default function Footer() {
     return (
         <>
             <footer id='footer' className='layout-case footer-section footer-layout'>
-                <h5>Contact Me (^-^)</h5>
+                <h5>//Contact Me (^-^)</h5>
                 <div className='links1'>
                     <div className='flex'><small>Email:</small> <div className='hazard-background-thin flex-grow-1 self-center'></div></div>
                         <a className='social-link' href='mailto:bruh.itsbonkers0609@gmail.com' target='_blank'>

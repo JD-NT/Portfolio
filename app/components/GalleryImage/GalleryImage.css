@@ -28,6 +28,43 @@
     cursor: zoom-out;
 }
 
+.image-showcase{
+    position: relative;
+    margin-block: 1em;
+}
+
+.image-showcase img{
+    aspect-ratio: 1 / 1 ;
+    object-fit: cover;
+}
+
+.title-text{
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 1em;
+    padding: 0.25em 0.5em;
+    text-transform: uppercase;
+    font-size: clamp(0.5rem, 0.75rem, 1rem);
+    background-color: var(--color-darkblue-50);
+    color: var(--color-white-100);
+    z-index: 1;
+}
+
+.title-text2{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin: 1em;
+    padding: 0.25em 0.5em;
+    text-transform: uppercase;
+    font-style: italic;
+    font-size: clamp(0.5rem, 0.75rem, 1rem);
+    background-color: var(--color-darkblue-50);
+    color: var(--color-white-100);
+    z-index: 1;
+}
+
 @keyframes fade-in {
   0% {opacity: 0%;}
   100% {opacity: 100%;}
