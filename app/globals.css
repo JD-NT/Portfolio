@@ -15,6 +15,10 @@
   --border: var(--color-white-100) 1px solid;
 }
 
+:root:has(.no-doc-scroll) {
+    overflow:hidden;
+}
+
 ::selection{
   color: var(--color-darkblue-50);
   background-color: var(--color-white-50);
@@ -248,8 +252,12 @@ sup{font-weight: 100;}
   background-position: left center, right center;
 }
 
-.mobile-hidden{
+.mobile-hidden, .tablet-hidden{
   display: block;
+}
+
+.mobile-visible, .tablet-visible{
+  display: none;
 }
 
 .plus{ 
@@ -270,12 +278,13 @@ sup{font-weight: 100;}
     border-top: var(--border);
 }
 
+@media screen and (max-width: 1350px) {
+    .tablet-visible{ display: block; }
+    .tablet-hidden{ display: none; }
+}
 
 @media screen and (max-width: 900px) {
     .layout-case{padding: 0 min(2em, 4%);}
     .mobile-hidden{ display: none; }
-}
-
-@media screen and (max-width: 600px) {
-
+    .mobile-visible{ display: block; }
 }

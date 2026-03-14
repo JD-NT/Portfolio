@@ -67,8 +67,8 @@ export default async function MemberDetails({
                     </div>
                 </div>
                 <div className='extra-accessory grid-bg'>
-                    <div className='bounding-box-L bg-[var(--color-white-100)]'><Image className='' src={member.accessoryPrimary} draggable='false' width={420} height={320} alt='' unoptimized/></div>
-                    <div className='bounding-box-L bg-[var(--color-white-100)]'><Image className='' src={member.accessorySecondary} draggable='false' width={420} height={320} alt='' unoptimized/></div>
+                    <div className='bounding-box-L'><Image className='' src={member.accessoryPrimary} draggable='false' width={420} height={320} alt='' unoptimized/></div>
+                    <div className='bounding-box-L'><Image className='' src={member.accessorySecondary} draggable='false' width={420} height={320} alt='' unoptimized/></div>
                 </div>
             </div>
             

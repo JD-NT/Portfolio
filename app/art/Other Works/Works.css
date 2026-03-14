@@ -1,6 +1,6 @@
 .gallery {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(1, 1fr);
     gap: 2em;
     justify-content: space-around;
@@ -8,7 +8,6 @@
 
 .image-section{
     display: grid;
-    grid-template-columns:max-content 1fr;
     align-items: center;
     gap: 0.5rem;
 }
@@ -18,7 +17,13 @@
     border-top: var(--border);
 }
 
-@media screen and (max-width: 500px) {    
+@media screen and (max-width: 1350px) {    
+.gallery {
+    grid-template-columns: repeat(2, 1fr);
+}
+}
+
+@media screen and (max-width: 600px) {    
 .gallery {
     grid-template-columns: repeat(1, 1fr);
 }
