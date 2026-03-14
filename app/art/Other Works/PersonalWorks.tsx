@@ -16,7 +16,7 @@ function PersonalWorks() {
                 <div>
                     <small className='image-section'>02</small>
                     <GalleryImage icon='/assets/otherWorks/icons/MilitaryWitchIcon.png' imageSrc='/assets/otherWorks/MilitaryWitch_OC.png' title='Military Witch' altText='An OC that is a witch with a militaristic design'></GalleryImage>
-                    <GalleryImage icon='/assets/otherWorks/icons/BunOcIcon.png' imageSrc='/assets/otherWorks/Bun OC.png' title='Bun OC' altText='An OC with a giant spear as a weapon'></GalleryImage>
+                    <GalleryImage icon='/assets/otherWorks/icons/BunOCIcon.png' imageSrc='/assets/otherWorks/Bun OC.png' title='Bun OC' altText='An OC with a giant spear as a weapon'></GalleryImage>
                 </div>
                 <div>
                     <small className='image-section'>03</small>

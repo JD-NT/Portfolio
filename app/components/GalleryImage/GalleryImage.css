@@ -15,6 +15,16 @@
     cursor: zoom-out;
 }
 
+.close-button-modal{ 
+    padding: min(2.25rem) min(1.75rem); 
+    margin-left: auto; 
+    cursor: pointer; 
+    position: absolute; 
+    top: 0; 
+    right: 0;
+    color: var(--color-darkblue-50);
+}
+
 .image-showcase{
     position: relative;
     margin-block: 1em;

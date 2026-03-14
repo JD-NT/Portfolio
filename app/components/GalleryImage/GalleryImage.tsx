@@ -25,6 +25,7 @@ const GalleryImage = (props: Image)  => {
             </button>
 
             <div className={`${isOpen ? 'open-modal  no-doc-scroll' : ''} image-modal`}>
+                <button className='close-button-modal'onClick={closeImageModal} aria-label='Close Sidebar'><big>[x]</big></button>
                 <Image src={props.imageSrc} draggable='false' width={900} height={860} alt='' onClick={closeImageModal} unoptimized/>
                 <small><i>{props.title}</i></small>
             </div>
