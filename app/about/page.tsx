@@ -19,7 +19,7 @@ function About() {
                         <h6>Background:</h6>
                         <small>
                             Bon is a pixel artist from the Philippines that likes everything sci-fi related, especially robots and mechs. 
-                            I have been doing pixel art for 5 years, while I mostly draw OCs, I occasionally try to draw and learn landscapes and other cool stuff. ~(￣▽￣)~
+                            I have been doing pixel art for a couple of years now, while I mostly draw OCs, I occasionally try to draw and learn landscapes and other cool stuff. ~(￣▽￣)~
                             <br /><br />
                             I really like using emoticons cause I think they're cute and fun to use, also makes it so that people can know my tone in messages. (⌒▽⌒)
                             <br /><br />

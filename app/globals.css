@@ -40,7 +40,6 @@
 html {
   background-color: var(--color-darkblue-50);
   color: var(--color-white-50);
-  font-family: Ubuntu Mono;
   text-wrap: balance;
   text-overflow: ellipsis;
 }
