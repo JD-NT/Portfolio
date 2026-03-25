@@ -10,7 +10,6 @@
     transform: translate(-50%, -50%);
     z-index: 20;
     flex-direction: column;
-    transition: 150ms ease-in;
     animation: 150ms fade-in ease-in;
     cursor: zoom-out;
 }
@@ -22,12 +21,27 @@
     position: absolute; 
     top: 0; 
     right: 0;
-    color: var(--color-darkblue-50);
+    color: var(--color-white-50);
+    mix-blend-mode: color-dodge;
 }
 
 .image-showcase{
     position: relative;
     margin-block: 1em;
+    overflow: hidden;
+}
+
+.showcase-overlay{
+    background-color: var(--color-lavender-50);
+    object-fit: cover;
+    transition: 400ms ease-in-out;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.showcase-overlay:hover{
+    background-color: transparent;
 }
 
 .image-showcase img{
@@ -36,10 +50,12 @@
     filter: brightness(0.725);
     opacity: 85%;
     transition: 500ms;
+    z-index: -1;
 }
 
 .image-showcase img:hover{
     filter: brightness(1);
+    scale: 1.05;
 }
 
 .title-text, .title-text2{
