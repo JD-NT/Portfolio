@@ -14,13 +14,11 @@ header {
   overflow: hidden;
   background-color: var(--color-darkblue-50);
   border-bottom: var(--border);
-  box-shadow: var(--color-darkblue-100) 0 0.5em 1em ;
-  /* mix-blend-mode: exclusion;
+  /* box-shadow: var(--color-darkblue-100) 0 0.5em 1em ;
+  mix-blend-mode: exclusion;
   color: var(--color-white-50);
   filter: saturate(5); */
 }
-
-
 
 .cta {
   color: var(--color-white-50);
@@ -68,7 +66,16 @@ header {
 
 .hamburger-icon { width: 1.5em; height: 1px; background-color: var(--color-white-50); margin: 6px 0;}
 
-.close-button{ padding: min(2.25rem) min(1.75rem); margin-left: auto; display: none; cursor: pointer; position: absolute; top: 0; right: 0; mix-blend-mode: difference;}
+.close-button{ 
+  padding: min(2.25rem) min(1.75rem); 
+  margin-left: auto; 
+  display: none; 
+  cursor: pointer; 
+  position: absolute; 
+  top: 0; 
+  right: 0; 
+  mix-blend-mode: difference;
+}
 
 .overlay{
   background-image: url("/assets/overlaybg.png");

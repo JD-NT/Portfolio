@@ -21,8 +21,6 @@ export default function Introduction() {
                 <hr />
                 <div className="intro-layout halftone-bg">
                         <div className="intro-content1">
-                            <div className='plus top-[-10px] right-[-10px]'><Image src='/assets/plus.png' draggable='false' width={40} height={16} alt=''  /></div>
-                            <div className='plus top-[-10px] left-[-10px]'><Image src='/assets/plus.png' draggable='false' width={40} height={16} alt=''  /></div>
                             <div className=''>
                                 <h1 className='display-text slide-anim'>Character Designer & Pixel Artist</h1>
                                 <small>2d Artist</small>

@@ -11,7 +11,7 @@
     background-color: var(--color-darkblue-50);
 }
 
-.character-card::after{
+/* .character-card::after{
   content: "";
   position: absolute;
   bottom: 0;
@@ -22,7 +22,7 @@
   transform: rotate(-45deg);
   background-color: var(--color-darkblue-50);
   border-top: solid 1px var(--color-white-100);
-}
+} */
 
 .character-card .charlink{
     cursor: pointer;
