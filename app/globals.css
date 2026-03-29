@@ -68,6 +68,8 @@ p, ul, li, a{ white-space: wrap; font-size: clamp(0.85rem, 0.95rem, 1rem); lette
 
 sup{font-weight: 100;}
 
+hr{ margin-block: 0.5em; color: var(--color-white-100);}
+
 .layout-case{
     max-width: 1920px;
     margin-left: auto;

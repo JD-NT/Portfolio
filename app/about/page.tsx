@@ -6,7 +6,7 @@ function About() {
         <>
         <div className='layout-case'>
             <small className='about-section'>Section:</small>
-            <h1>About Me</h1>
+            <h3>About Me</h3>
             <div className='about-layout'>
                 <div className='about-me1'>
                     <div>

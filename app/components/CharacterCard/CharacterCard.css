@@ -11,6 +11,19 @@
     background-color: var(--color-darkblue-50);
 }
 
+.character-card::after{
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: calc(-3em + -0.025em);
+  width: 6em;
+  height: 6em;
+  transform: rotate(-45deg);
+  background-color: var(--color-darkblue-50);
+  border-top: solid 1px var(--color-white-100);
+}
+
 .character-card .charlink{
     cursor: pointer;
 }
@@ -35,7 +48,20 @@
     padding: 0.5em;
     cursor: pointer;
     transition: 150ms ease-in;
+    position: relative;
 }
+
+/* .character-details::before{
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: calc(-1em + -0.025em);
+  width: 2em;
+  height: 2em;
+  transform: rotate(-45deg);
+  background-color: var(--color-darkblue-50);
+} */
 
 .character-details h4{
     font-family: Onder;

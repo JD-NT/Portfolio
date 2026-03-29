@@ -19,8 +19,10 @@ const GalleryImage = (props: Image)  => {
         <>
             <button onClick={openImageModal} className='cursor-zoom-in'>
                 <div className='image-showcase'>
+                    <figure>
                     <Image src={props.icon} draggable='false' width={600} height={960} quality={80} alt={props.altText} unoptimized/>
-                    <small className='title-text2'><i>{props.title}</i></small>
+                    <figcaption className='title-text2'><i>{props.title}</i></figcaption>
+                    </figure>
                 </div>
             </button>
 

@@ -6,18 +6,17 @@ import Image from 'next/image'
 function CharacterShowcase() { 
     return (
         <>
-        <div className='layout-case'>
-            {/* <div className='w-100% text-center'><small>Section:</small></div>
-            <div className='page-name'><h6>Characters</h6></div> */}
-            
+        <section className='layout-case'>
             <div className='mobile-hidden'>
                 <div className='flex justify-between'>
-                    <div className='flex gap-[0.5em]'><Image src='/assets/revolvis.png' width={40} height={16} alt='' priority /><small>Section: <br />Characters</small></div>
+                    <div className='flex gap-[0.5em]'><Image src='/assets/revolvis.png' width={40} height={16} alt='' draggable='false' /><small>Section: <br />Characters</small></div>
                     <div className='flex'><small>Revolvis: <br /> Six Stars</small></div>
                     <div className='flex'><small>My Own <br /> Characters</small></div>
                     <small>©Dale</small>
                 </div>
             </div>
+
+            <hr />
 
             <div className='characters halftone-bg'>
                         <CharacterCard  
@@ -69,7 +68,7 @@ function CharacterShowcase() {
                         linkto='/art/SixStars/Sybila'/>
 
                 </div>
-            </div>
+            </section>
         </>
     )
 }

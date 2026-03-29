@@ -14,7 +14,13 @@ header {
   overflow: hidden;
   background-color: var(--color-darkblue-50);
   border-bottom: var(--border);
+  box-shadow: var(--color-darkblue-100) 0 0.5em 1em ;
+  /* mix-blend-mode: exclusion;
+  color: var(--color-white-50);
+  filter: saturate(5); */
 }
+
+
 
 .cta {
   color: var(--color-white-50);
